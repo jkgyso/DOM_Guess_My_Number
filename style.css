@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  font-family: 'New Amsterdam', sans-serif;
+}
+
+.container-fluid {
+  border-radius: 15px;
+  padding: 0;
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.bg-col-1 {
+  background-color: #b5e2fa;
+  padding: 20px;
+  height: 100%;
+}
+
+.bg-col-2 {
+  background-color: #eddea4;
+  padding: 20px;
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.guess {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
